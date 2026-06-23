@@ -53,7 +53,7 @@ By dividing the application into user-space operations (GUI, local validation, a
 
 ## Installation & Running
 
-### Option A: Standalone AppImage (Recommended)
+### Option A: Standalone AppImage
 
 You can download the pre-compiled, standalone **AppImage** from the **Releases** tab on GitHub.
 
