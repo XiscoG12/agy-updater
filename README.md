@@ -53,20 +53,35 @@ By dividing the application into user-space operations (GUI, local validation, a
 
 ## Installation & Running
 
-### 1. Requirements
+### Option A: Standalone AppImage (Recommended)
+
+You can download the pre-compiled, standalone **AppImage** from the **Releases** tab on GitHub.
+
+Once downloaded, make it executable and run it:
+```bash
+chmod +x Antigravity_IDE_Updater-x86_64.AppImage
+./Antigravity_IDE_Updater-x86_64.AppImage
+```
+
+---
+
+### Option B: Running from Source
+
+#### 1. Requirements
 Ensure PyQt6 is installed on your Fedora KDE system:
 ```bash
 sudo dnf install python3-pyqt6
 ```
 
-### 2. Running the App
+#### 2. Running the App
 Start the app by running:
 ```bash
 ./run.sh
 ```
 
-### 3. Testing
+#### 3. Testing
 To run the headless test suite:
 ```bash
 python3 -m unittest test_updater.py
 ```
+
